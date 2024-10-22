@@ -1,0 +1,31 @@
+@import "variables";
+
+.heart{
+    background-image: linear-gradient(rgba(252,195,2,.8),rgba(252,195,2,.8)) ,url(../img/overlay.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    h4{
+        font-size:25px ;
+        font-family:$my-Font ;
+        color: $accent-Color;
+    }
+    h2{
+        font-size:25px ;
+        font-family:$my-Font ;
+        color: $accent-Color;
+        font-weight: bold;
+    }
+}
+
+
+@media(max-width:991px){
+
+    .heart{
+        padding-bottom: 50px;
+    h2{
+        margin-bottom: 50px;
+    }
+}
+}

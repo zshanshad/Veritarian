@@ -1,0 +1,158 @@
+@import"variables";
+.lover-animal{
+    padding-top:100px ;
+    padding-bottom: 100px;
+    .right{
+         text-align: right;
+        .text{
+            h1{
+                color:$secondary-Color;
+                font-family: $my-Font;
+                font-weight:$my-Semibold ;
+                font-size:40px ;
+               
+            }
+            p{
+                color:$secondary-Color;
+                font-family: $my-Font;
+              
+                font-size:20px ;
+            }
+            button{
+              
+                text-decoration: none;
+                color: $accent-Color;
+                font-family: $my-Font;
+                font-weight:$my-Semibold ;
+                border: none;
+                background-color: $primary-Color;
+                width: 150px;
+                height: 50px;
+                border-radius: 6px;
+                
+            }
+            button:hover{
+                background-color: $secondary-Color;
+                color: $primary-Color;
+            }
+    }
+}}
+
+
+@media(max-width:1200px){
+    .lover-animal{
+      
+        .right{
+           
+            .text{
+                h1{
+                   
+                    font-size:35px ;
+                   
+                }
+                p{
+
+                  
+                    font-size:18px ;
+                }
+            
+        }
+    }}
+}
+
+@media(max-width:991px){
+    .lover-animal{
+      .left{
+        img{
+              
+            width:350px;
+            height: 350px;
+          }
+      }
+    }
+
+}
+
+@media(max-width:477px){
+    .lover-animal{
+        padding-top:90px ;
+         padding-bottom: 90px;
+        .left{
+            img{
+              
+              width:250px;
+              height: 250px;
+            }
+        }
+        .right{
+            .text{
+                h1{
+                
+                    font-size:30px ;
+                }
+                p{
+                    
+                    
+                    font-size:18px ;
+                }
+                button{
+                  
+                    width: 130px;
+                    height: 40px;
+                  
+    
+                }
+            }
+    }
+    }
+    
+}
+
+@media(max-width:362px){
+    .lover-animal{
+         padding-top:90px ;
+         padding-bottom: 90px;
+        
+        .right{
+            .text{
+                h1{
+                
+                    font-size:28px ;
+                }
+                p{
+                    
+                    
+                    font-size:16px ;
+                }
+             
+            }
+    }
+    }
+    
+}
+@media(max-width:337px){
+    .lover-animal{
+        // padding-top:90px ;
+        //  padding-bottom: 90px;
+        
+        .right{
+            .text{
+                h1{
+                
+                    font-size:25px ;
+                }
+          
+             
+            }
+    }
+    }
+    
+}
+
+
+
+
+
+
+    
+

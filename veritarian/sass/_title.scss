@@ -1,0 +1,89 @@
+@import "variables";
+.title{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: $primary-Color;
+    img{
+        width:250px ;
+        height:250px ;
+        border: 4px solid $accent-Color;
+    }
+    h3{
+        font-family:$my-Font ;
+        font-size: 25px;
+        font-weight:$my-Semibold ;
+        color: $accent-Color;
+    }
+   .ver{
+    font-size: 18px;
+    font-family:$my-Font ;
+
+    color: $accent-Color;
+   }
+    .text{
+        h1{
+            font-family:$my-Font ;
+            font-size: 50px;
+            font-weight:bold ;
+            color: $accent-Color;
+        }
+        p{
+            font-size: 25px;
+            font-family:$my-Font ;
+       
+            color: $accent-Color;
+            margin-bottom: 60px;
+        }
+    }
+}
+
+
+
+@media(max-width:991px){
+    .title{
+        .ver{
+            margin-bottom: 30px;
+        }
+        img{
+            width:200px ;
+            height:200px ;
+            
+        }
+    }
+}
+
+@media(max-width:512px){
+    .title{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        .text{
+            h1{
+                
+                font-size: 40px;
+                
+            }
+            p{
+                font-size: 20px;
+               
+            } 
+        }
+    }
+}
+
+
+@media(max-width:350px){
+    .title{
+        padding-bottom: 60px;
+        .text{
+            h1{
+                
+                font-size: 35px;
+                
+            }
+            p{
+                font-size: 18px;
+               
+            } 
+        }
+    }
+}

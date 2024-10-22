@@ -1,0 +1,102 @@
+@import "variables";
+
+.post{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: $accent-Color;
+  
+   
+   
+  
+    .text{
+        h1{
+            font-family:$my-Font ;
+            font-size: 50px;
+            font-weight:bold ;
+            color: $secondary-Color;
+        }
+        p{
+            font-size: 25px;
+            font-family:$my-Font ;
+       
+            color: $secondary-Color;
+            margin-bottom: 60px;
+        }
+    }
+    .card{
+        .card-body{
+            h5{
+                font-size: 23px;
+                font-family:$my-Font ;
+                font-weight:$my-Semibold;
+                color: $secondary-Color;
+            }
+            h6{
+                font-size:15px ;
+                font-family:$my-Font ;
+                color: $my-Button;
+            }
+            p{
+                font-size:15px ;
+                font-family:$my-Font ;
+                color: $secondary-Color;
+            }
+        }
+    }
+}
+
+
+@media(max-width:512px){
+    .post{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        .text{
+            h1{
+                
+                font-size: 40px;
+                
+            }
+            p{
+                font-size: 20px;
+               
+            } 
+           
+        }
+    }
+}
+
+@media(max-width:394px){
+    .post{
+        padding-bottom: 60px;
+        .text{
+            h1{
+                
+                font-size: 35px;
+                
+            }
+            p{
+                font-size: 18px;
+               
+            } 
+           
+        }
+    }
+}
+@media(max-width:350px){
+    .post{
+         padding-bottom: 50px;
+       .text{
+                 h1{
+                
+                font-size: 30px;
+                
+             }
+             p{
+                 font-size: 16px;
+               
+             } 
+           
+         }
+     }
+   
+ }

@@ -1,0 +1,158 @@
+@import "variables";
+
+.animal{
+    padding-top:100px ;
+    padding-bottom: 100px;
+    .right{
+        img{
+          
+          width:450px;
+          height: 400px;
+          
+        }
+    }
+    .left{
+        .text{
+            h1{
+                color:$secondary-Color;
+                font-family: $my-Font;
+                font-weight:$my-Semibold ;
+                font-size:40px ;
+            }
+            p{
+                color:$secondary-Color;
+                font-family: $my-Font;
+                
+                font-size:20px ;
+            }
+            button{
+                text-decoration: none;
+                color: $accent-Color;
+                font-family: $my-Font;
+                font-weight:$my-Semibold ;
+                border: none;
+                background-color: $primary-Color;
+                width: 150px;
+                height: 50px;
+                border-radius: 6px;
+
+            }
+            button:hover{
+                background-color: $secondary-Color;
+                color: $primary-Color;
+            }
+        }
+}
+}
+
+
+@media(max-width:991px){
+    .animal{
+        .right{
+            img{
+              
+              width:350px;
+              height: 350px;
+            }
+        }
+        .left{
+            .text{
+                h1{
+                
+                   margin-top: 0px !important;
+                }
+                button{
+                   margin-bottom: 60px;
+    
+                }
+            }
+        }
+    }
+}
+
+
+@media(max-width:477px){
+    .animal{
+        padding-top:90px ;
+         padding-bottom: 90px;
+        .right{
+            img{
+              
+              width:250px;
+              height: 250px;
+            }
+        }
+        .left{
+            .text{
+                h1{
+                
+                    font-size:35px ;
+                }
+                p{
+                    
+                    
+                    font-size:18px ;
+                }
+                button{
+                  
+                    width: 130px;
+                    height: 40px;
+                  
+    
+                }
+            }
+    }
+    }
+    
+}
+
+
+ @media(max-width:414px){
+    .animal{
+        padding-top:80px ;
+         padding-bottom: 80px;
+       
+        .left{
+            .text{
+                h1{
+                 
+                    font-size:30px ;
+                }
+                p{
+                    
+                    
+                    font-size:16px ;
+                }
+                button{
+                  
+                    width: 130px;
+                    height: 40px;
+                  
+    
+                }
+            }
+    }
+    }
+    
+
+
+ }
+
+ @media(max-width:358px){
+     .animal{
+        .left{
+            .text{
+                h1{
+                 
+                    font-size:26px ;
+                }
+                p{
+                    
+                    
+                    font-size:16px ;
+                }
+            }
+        }
+    }
+}
+ 
